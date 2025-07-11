@@ -10,22 +10,22 @@ public class FConstants {
     static {
         FollowerConstants.localizers = Localizers.THREE_WHEEL;
 
-        FollowerConstants.leftFrontMotorName = "fl-drive";
+        FollowerConstants.leftFrontMotorName = "fr-drive";
         FollowerConstants.leftRearMotorName = "bl-drive";
-        FollowerConstants.rightFrontMotorName = "fr-drive";
+        FollowerConstants.rightFrontMotorName = "fl-drive";
         FollowerConstants.rightRearMotorName = "br-drive";
 
         FollowerConstants.leftFrontMotorDirection = DcMotorSimple.Direction.FORWARD;
-        FollowerConstants.leftRearMotorDirection = DcMotorSimple.Direction.REVERSE;
+        FollowerConstants.leftRearMotorDirection = DcMotorSimple.Direction.FORWARD;
         FollowerConstants.rightFrontMotorDirection = DcMotorSimple.Direction.REVERSE;
-        FollowerConstants.rightRearMotorDirection = DcMotorSimple.Direction.FORWARD;
+        FollowerConstants.rightRearMotorDirection = DcMotorSimple.Direction.REVERSE;
 
         FollowerConstants.mass = 13;
 
-        FollowerConstants.xMovement = 57.8741;
-        FollowerConstants.yMovement = 52.295;
+        FollowerConstants.xMovement = 61.24195;
+        FollowerConstants.yMovement = 50.2385;
 
-        FollowerConstants.forwardZeroPowerAcceleration = -41.278;
+        FollowerConstants.forwardZeroPowerAcceleration = -42.05;
         FollowerConstants.lateralZeroPowerAcceleration = -59.7819;
 
         FollowerConstants.translationalPIDFCoefficients.setCoefficients(0.1,0,0.01,0);
